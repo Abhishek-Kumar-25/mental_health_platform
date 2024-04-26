@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .review-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .review-form input[type="text"],
+        .review-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .review-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .review-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer Reviews</h1>
+        <div class="testimonial">
+            <p>"I recently had the pleasure of experiencing the offerings of Hope Heaven, and I must say, it truly lives
+                up to its name. From the moment I landed on their website, I felt a sense of serenity and optimism.
+                The range of products and services they provide is exceptional. Whether you're seeking spiritual
+                guidance, uplifting literature, or wellness products, Hope Heaven has it all. Their selection is
+                carefully curated, reflecting a deep understanding of the human spirit and its needs."</p>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star-empty">&#9734;</span>
+            <span class="star-empty">&#9734;</span>
+            <p><strong>- Shreya Singh, New Delhi</strong></p>
+        </div>
+
+        <div class="testimonial">
+            <p>"Hope Heaven isn't just a website; it's an oasis in the digital desert. As a customer, I found solace,
+                inspiration, and a renewed sense of purpose within its virtual walls.
+                From the moment I arrived, I was greeted with warmth and positivity. The layout is inviting, the colors
+                soothing, and the content uplifting. It's evident that every aspect of the website is crafted with care
+                and intention."</p>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star-empty">&#9734;</span>
+            <p><strong>- Shalini Sahu, Jharkhand</strong></p>
+        </div>
+
+        <div class="testimonial">
+            <p>"In a fast-paced world filled with noise and chaos, Hope Heaven stands out as a tranquil oasis where one
+                can find solace and inner peace.
+                From the moment I stumbled upon their website, I was captivated by the serene atmosphere it exudes. The
+                soothing colors, gentle imagery, and intuitive layout immediately set the tone for a harmonious
+                experience."</p>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star-empty">&#9734;</span>
+            <p><strong>-Ravi Dubey, Mumbai</strong></p>
+        </div>
+        <div class="review-form">
+            <h2>Leave Your Review</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="location">Your Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
